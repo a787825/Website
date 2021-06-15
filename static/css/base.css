@@ -1,0 +1,24 @@
+.index-h{
+    position: relative;
+    
+}
+
+.index-h .block {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 80%;
+    padding: 30px;
+    text-align: center;
+}
+
+.ggi {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 51%, rgba(212,212,212,1) 100%);
+}

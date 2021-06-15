@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+
+    <header class=''>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="text-center my-5">
+                        <h1>We love the Oncidium</h1>
+                        <p class="lead">What we provide</p>
+                        <a href="#scroll-target" class="btn btn-primary btn-lg">Read Our Story</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- "About" Section section 1-->
+    <section class='py-5 bg-light' id='scroll-target'>
+        <div class="container px-5 my-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6">
+                    <img class='img-fluid rounded' src="{% static 'images/IMG_0325.jpg' %}" alt="">
+                </div>
+                <div class='col-lg-6'>
+                    <h1 class='fw-bolder'> About Us</h1>
+                    <h2 class='lead fw-normal text-muted mb-0'>We started at 1999......</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- "About" Section section 2-->
+    <section class='py-5'>
+        <div class="container px-5 my-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 order-last">
+                    <img class='img-fluid rounded' src="{% static 'images/IMG_0325.jpg' %}" alt="">
+                </div>
+                <div class='col-lg-6'>
+                    <h1 class='fw-bolder'> Growth &amp; beyond </h1>
+                    <h2 class='lead fw-normal text-muted mb-0'>We started at 1999......</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class='py-5 bg-light'>
+        <div class="container px-5 my-5">
+            <div class="text-center">
+                <h2 class="fw-bolder">Our Team</h2>
+                <p class="lead fw-normal text-muted mb-5">Passions on the Work</p>
+            </div>
+            <div class="row gx-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 justify-content-center">
+                <div class="col mb-5 mb-xl-0">
+                    <div class="text-center">
+                        <img src="" alt="" class="img-fluid rounded-circle mb-4 px-4">
+                        <h5 class="fw-bolder">FuLei Chang</h5>
+                        <div class="fst-italic text-muted">Founder & CEO</div>
+                    </div>
+                </div>
+                <div class="col mb-5 mb-xl-0">
+                    <div class="text-center">
+                        <img src="" alt="" class="img-fluid rounded-circle mb-4 px-4">
+                        <h5 class="fw-bolder">James Chang</h5>
+                        <div class="fst-italic text-muted">Operations Manager</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+{% endblock %}
+

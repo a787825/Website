@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+
+{%  load static %}
+
+
+
+{% block content %}
+
+    <!-- header -->
+    <header class='masthead'>
+        <div class='container-fluid'>
+            <div class="index-h">
+                <img src='{% static "images/IMG_0308.jpg" %}' class='img-fluid' alt="Hwuluduen Orchids">
+                <div class='block'>
+                    <h1 class=''>More than Just Oncidium</h1>
+                </div>
+            </div>
+        </div>  
+    </header>
+
+   
+    <!-- "What we sell " section 2 -->
+    <section class='preview py-5 bg-light'>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="text-center">
+                        <h2 class='fw-bolder'><strong>What we have</strong></h2>
+                        <p class='lead fw-normal text-muted mb-5'>For last twenty years, we keep pushing and learning</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-5">
+                <div class="col-lg-4">
+                    <div class="card shadow border-0">
+                        <img src="{% static 'images/IMG_0314.jpg' %}" class='img-fluid' alt="seeding">
+                        <div class="card-body">
+                            <p>This is our Seedling plant</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card h-100 shadow border-0">
+                        <img src="{% static 'images/IMG_0314.jpg' %}" class='img-fluid' alt="seeding">
+                        <div class="card-body">
+                            <p>This is our Seedling plant</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card h-100 shadow border-0">
+                        <img src="{% static 'images/IMG_0314.jpg' %}" class='img-fluid' alt="seeding">
+                        <div class="card-body">
+                            <p>This is our bare_root plant</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- "Story" section 3 -->
+        <section class='py-5 ggi'>
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="py-3 col-lg-8 text-center text-dark">
+                        <h2>"All the passions and love on the Oncidium, which built the Oncidium kingdom"</h2>
+                        <h2>(here images or logo) </h2>
+                        <p>Fu Lai Chang / CEO, Hwuluduen Orchid</p>
+                    </div>
+                </div> 
+            </div>
+        </section>
+
+
+    
+
+
+   
+
+{% endblock %}
